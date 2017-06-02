@@ -30,4 +30,25 @@ $(document).ready(function (){
 	threeStr.push('words');
 	threeStr.shift();
 	console.log(threeStr);
+
+	// Find length of all 5 variable types
+	var num = 12;
+	var str = 'hello';
+	var bool = true;
+	var arr = [3, 1, 2];
+	var obj = {
+		firstname: 'Danube',
+		lastname: 'Phan'
+	}
+	var strarr = ['hi', 'eye', 'name'];
+
+	console.log(num.toString().length);
+	console.log(str.length);
+	console.log(bool.toString().length);
+	console.log(arr.length);
+	console.log(Object.keys(obj).length);
+
+	console.log(arr.reverse());
+	console.log(strarr.sort());
+	console.log(arr.sort());
 });
